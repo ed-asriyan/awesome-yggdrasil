@@ -14,7 +14,7 @@ jobs:
   awesome-lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # Full history is needed so awesome-lint can check the age of the repository.
           fetch-depth: 0
