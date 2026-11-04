@@ -1,0 +1,66 @@
+name: Suggest a project
+description: Suggest a project to add to the list.
+title: "Add: "
+labels: ["new-entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Please read `contributing.md` in this repository first.
+        A pull request is even better than an issue.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: Yggdrasil Go
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      description: Link to the repository or the homepage.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Implementations and Libraries
+        - Mobile and Desktop Clients
+        - Messaging and Email
+        - Infrastructure and Services
+        - Tools
+        - Routers and Firmware
+        - Other (please explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One objective sentence about what the project does.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be on the list?
+      description: What makes it useful, and have you used it yourself?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: The project is related to Yggdrasil.
+          required: true
+        - label: The source code is public and the project has a license.
+          required: true
+        - label: The project has documentation and had activity within the last 12 months.
+          required: true
+        - label: The project is not already on the list or in the archive.
+          required: true
