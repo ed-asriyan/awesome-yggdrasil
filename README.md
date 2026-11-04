@@ -18,6 +18,7 @@
 - [Ratatoskr](https://github.com/voluminor/ratatoskr) - Go library for embedding Yggdrasil mesh nodes with a userspace gVisor TCP/IP stack.
 - [Ygg](https://github.com/asciimoth/ygg) - Fork of Yggdrasil Go focused on embedding as a library, with pluggable transports (QUIC, WebSocket) and extra TUN modes.
 - [Yggstack](https://github.com/yggdrasil-network/yggstack) - Go implementation (Netstack instead of TUN).
+- [Yggdrasil Lite](https://github.com/vasil646srb/yggdrasil-lite) - Minimal Rust leaf-node implementation for embedded and small Unix devices (OpenWrt, Termux, ESP32), with a `no_std` library build.
 
 ## Mobile and Desktop Clients
 
