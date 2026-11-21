@@ -25,6 +25,7 @@
 - [Yggdrasil Android](https://github.com/yggdrasil-network/yggdrasil-android) - Yggdrasil client for Android.
 - [Yggstack Android](https://github.com/DrewCyber/yggstack-android) - A full-featured Android UI wrapper for the Yggstack CLI application.
 - [Huginn](https://git.shd.company/bubblegum/Huginn) - Yggdrasil client for Windows based on Yggdrasil-ng.
+- [Drosophila](https://github.com/ergolyam/Drosophila) - GTK 4 desktop application for running, configuring and monitoring an embedded Yggdrasil-ng node.
 
 ## Messaging and Email
 
