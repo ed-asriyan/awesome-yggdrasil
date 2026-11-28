@@ -30,6 +30,7 @@
 ## Messaging and Email
 
 - [Mimir](https://github.com/Mimir-IM/MimirForAndroid) - True P2P messenger on top of Yggdrasil Network.
+- [Mimir Desktop](https://github.com/JB-SelfCompany/mimir-desktop) - Desktop client for the Mimir messenger.
 - [Tyr](https://github.com/JB-SelfCompany/Tyr) - True P2P Email on top of Yggdrasil Network for Android.
 - [Yggmail](https://github.com/neilalexander/yggmail) - End-to-end encrypted email for the mesh networking age.
 - [Yggmail-ng](https://git.shd.company/bubblegum/Yggmail-ng) - Rust rewrite of Yggmail, wire-compatible with the Go version, with local SMTP and IMAP servers for standard mail clients.
